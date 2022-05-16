@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items:center;
+}
+.nav-links {
+    font-family: Uni Sans Heavy;
+    src: url("Uni Sans Heavy.otf");
+    color: aliceblue;
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    display:inline-block;
+    list-style: none;
+    padding: 0px 12px;
+    position:relative;
+    text-align: center;
+    align-items:center;
+
+}
+.logo{
+    text-align: right;
+    display: inline;
+    position: relative;
+    float: left;
+}
+.social{
+    position: relative;
+    float: right;
+    filter: invert(100%);
+    height: 2px;
+    width: auto;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited { 
+    text-decoration: none; 
+    color: aliceblue; 
+   }
