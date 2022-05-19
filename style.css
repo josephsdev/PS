@@ -2,46 +2,84 @@
     margin: 0;
     padding: 0;
 }
-.header{
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@font-face {
+    font-family: 'Perfect DOS VGA 437';
+    src: url('font/PerfectDOSVGA437.eot');
+    src: url('font/PerfectDOSVGA437.eot?#iefix') format('embedded-opentype'),
+        url('font/PerfectDOSVGA437.woff2') format('woff2'),
+        url('font/PerfectDOSVGA437.woff') format('woff'),
+        url('font/PerfectDOSVGA437.svg#PerfectDOSVGA437') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.body{
+    font-family: 'Perfect DOS VGA 437';
+    background-color: black;
     min-height: 100vh;
+}
+.header{
+    
     width: 100%;
     background-color: black;
-}
-nav{
-    display: flex;
-    padding: 1% 6%;
-    justify-content: space-between;
-    align-items:center;
-}
-.nav-links {
-    font-family: Uni Sans Heavy;
-    src: url("Uni Sans Heavy.otf");
-    color: aliceblue;
-    flex: 1;
-    text-align: center;
-}
-.nav-links ul li{
-    display:inline-block;
-    list-style: none;
-    padding: 0px 12px;
-    position:relative;
-    text-align: center;
-    align-items:center;
+   
+    margin-top: 30vh;
+    margin-bottom: 50%;
 
 }
-.logo{
-    text-align: right;
-    display: inline;
-    position: relative;
-    float: left;
+.nav{
+    display:block;
+    justify-content: center;
+    position: center;
+    text-align: center;
+    
+    
+}
+.nav-links ul li:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+.social:hover {
+    transform: scale(1.2);
+    transition: 500ms;
 }
 .social{
-    position: relative;
-    float: right;
+
     filter: invert(100%);
-    height: 2px;
-    width: auto;
+
 }
+
+
+.nav-links {
+    font-family: 'Perfect DOS VGA 437';
+    margin-bottom: 2vh;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    padding: 1vh;
+    font-family: 'Perfect DOS VGA 437';
+    font-size: 4vh;
+    
+}
+.logo{
+    font-family: 'Perfect DOS VGA 437';
+    font-size: 9vh;
+    margin-bottom: 2vh;
+
+    
+}
+
 a:link {
     text-decoration: none;
 }
@@ -49,3 +87,7 @@ a:visited {
     text-decoration: none; 
     color: aliceblue; 
    }
+a:active {
+    text-decoration: none;
+}
+
