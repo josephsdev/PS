@@ -36,8 +36,6 @@
     justify-content: center;
     position: center;
     text-align: center;
-    
-    
 }
 .nav-links ul li:hover {
     transform: scale(1.2);
