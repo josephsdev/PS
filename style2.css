@@ -82,10 +82,11 @@
 
 a:link {
     text-decoration: none;
+    color: rgb(255, 255, 255); 
 }
 a:visited { 
     text-decoration: none; 
-    color: aliceblue; 
+    color: rgb(255, 255, 255); 
    }
 
 .paragraph {
@@ -151,8 +152,9 @@ a:visited {
     opacity: 1;
     font-size: 3rem;
   }
-  a:active {
+a:active {
     text-decoration: none;
+    color: rgb(255, 255, 255); 
 }
 .logo:hover {
     transform: scale(1.2);

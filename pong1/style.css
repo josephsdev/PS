@@ -74,13 +74,15 @@
 
 a:link {
     text-decoration: none;
+    color: rgb(255, 255, 255); 
 }
 a:visited { 
     text-decoration: none; 
-    color: aliceblue; 
+    color: rgb(255, 255, 255); 
    }
 a:active {
     text-decoration: none;
+    color: rgb(255, 255, 255); 
 }
 
 .gameBox {
