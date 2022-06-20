@@ -145,3 +145,12 @@ a:visited {
   a:active {
     text-decoration: none;
 }
+.logo:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+.nav-links ul li:hover{
+
+    transform: scale(1.2);
+    transition: 500ms;
+}
